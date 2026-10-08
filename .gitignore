@@ -1,0 +1,22 @@
+# Working folders, not part of the site
+_harvest/
+_review/
+_shots/
+
+# Credentials, never commit
+*.local.md
+*credentials*
+*.env
+
+# OS and editor noise
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
